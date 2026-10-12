@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="message">Click The Button!</p>
+
+<button id="button">Here!</button>
+
+<script>
+    document.getElementById("button").addEventListener("click", function() {
+        document.getElementById("message").innerText = "Button was clicked!";
+        console.log("Button clicked");
+    });
+</script>
+
+</body>
+</html>
